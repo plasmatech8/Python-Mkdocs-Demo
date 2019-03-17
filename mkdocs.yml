@@ -4,9 +4,10 @@ nav:
   - Junk Pages: # <- Blank TOC category heading
     - 'page1.md'
     - 'page2.md'
-  - User Guid: 
+  - User Guide: 
     - 'extension examples.md'
     - 'markdown examples.md'
+  - 'my autodoc attempt.md'
 theme: readthedocs #mkdocs
 markdown_extensions:
   - pymdownx.tasklist
@@ -16,4 +17,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.caret
   - pymdownx.magiclink
-  
+
+plugins:
+  - search
+  - hello-dolly
+  - dodoc

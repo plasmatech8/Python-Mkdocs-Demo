@@ -1,9 +1,19 @@
 site_name: Mkdocs overview
-pages:
-  - Home: 'index.md'
-  - PageName1: 'page1.md'
-  - PageName2: 'page2.md'
-  - 'extension examples.md'
-theme: readthedocs
+nav:
+  - Home: 'index.md' # <- Uses this name in TOC instead of top level heading
+  - Junk Pages: # <- Blank TOC category heading
+    - 'page1.md'
+    - 'page2.md'
+  - User Guid: 
+    - 'extension examples.md'
+    - 'markdown examples.md'
+theme: readthedocs #mkdocs
 markdown_extensions:
-  - pymdownx.arithmatex
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.progressbar # Doesnt work in readthedocs theme
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.magiclink
+  

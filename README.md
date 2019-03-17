@@ -23,7 +23,7 @@ mkdocs serve
 ```
 5. Edit and revise
 6. Commit and push source to github
-7. Deploy to gh-pages
+7. Deploy to gh-pages (pushes site/ to gh-pages branch)
 ```
 mkdocs gh-deploy
 ```

@@ -1,0 +1,9 @@
+site_name: Mkdocs overview
+pages:
+  - Home: 'index.md'
+  - PageName1: 'page1.md'
+  - PageName2: 'page2.md'
+  - 'extension examples.md'
+theme: readthedocs
+markdown_extensions:
+  - pymdownx.arithmatex
